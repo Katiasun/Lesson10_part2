@@ -79,7 +79,9 @@ hr {
 .hover4:hover {
   background: #00aed9;
 }
-
+.links:hover {
+  opacity: 1;
+}
 .hover1,
 .hover2,
 .hover3,
@@ -113,16 +115,17 @@ hr {
 .links {
   position: absolute;
   display: flex;
-
+  margin-top: 114px;
+  margin-left: 67px;
   background: rgba(255, 255, 255, 0.3);
   opacity: 0;
 }
-.links:hover {
-  opacity: 1;
-}
+
 .links__twitter1,
 .links__fs,
 .links__google {
   width: 42px;
   height: 42px;
+  padding-top: 10px;
+  padding-left: 9px;
 }
