@@ -60,9 +60,26 @@ hr {
   width: 269px;
   height: 340px;
 }
-.hover1:hover {
-  background-color: #00aed9;
+
+.hover1 {
+  background: url("../img/photo0.png");
 }
+.hover2 {
+  background: url("../img/photo.png");
+}
+.hover3 {
+  background: url("../img/photo\ \(1\).png");
+}
+.hover4 {
+  background: url("../img/photo\ \(2\).png");
+}
+.hover1:hover,
+.hover2:hover,
+.hover3:hover,
+.hover4:hover {
+  background: #00aed9;
+}
+
 .hover1,
 .hover2,
 .hover3,
@@ -78,7 +95,7 @@ hr {
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
-
+  padding-top: 275px;
   color: #282528;
 }
 .hover1 p,
@@ -92,14 +109,20 @@ hr {
 
   color: #646464;
 }
+
 .links {
   position: absolute;
   display: flex;
-  justify-content: center;
+
   background: rgba(255, 255, 255, 0.3);
   opacity: 0;
 }
 .links:hover {
   opacity: 1;
-  background-color: #0888a8;
+}
+.links__twitter1,
+.links__fs,
+.links__google {
+  width: 42px;
+  height: 42px;
 }
