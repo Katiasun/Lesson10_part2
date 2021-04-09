@@ -23,7 +23,7 @@ h1 {
   font-size: 34px;
   line-height: 41px;
   letter-spacing: 0.2em;
-
+  border: none;
   color: #3c3c3c;
 }
 hr {
@@ -58,7 +58,10 @@ hr {
 .elena,
 .lily {
   width: 269px;
-  height: 335px;
+  height: 340px;
+}
+.hover1:hover {
+  background-color: #00aed9;
 }
 .hover1,
 .hover2,
@@ -88,4 +91,15 @@ hr {
   line-height: 17px;
 
   color: #646464;
+}
+.links {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.3);
+  opacity: 0;
+}
+.links:hover {
+  opacity: 1;
+  background-color: #0888a8;
 }
